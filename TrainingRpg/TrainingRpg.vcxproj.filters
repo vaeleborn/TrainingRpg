@@ -9,34 +9,99 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
+    <Filter Include="Source Files\Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{25960ffe-41c1-4255-96d4-8940a578ecf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mechanics">
+      <UniqueIdentifier>{563e7a3d-3ca7-48c9-a6e6-a6d2512d2db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{483076e5-befe-430b-aecb-72d6b85258cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{62e990f1-9564-4e45-bf56-d363d9a824e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mechanics">
+      <UniqueIdentifier>{3b7464b6-a4e9-476e-8e41-303b1ef6c0d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{f064c5d6-a84e-4532-874e-81a72a22d061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Game Objects">
+      <UniqueIdentifier>{a8013753-8730-44f6-8cb2-1194c0926a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Game Objects">
+      <UniqueIdentifier>{6bddc108-8d02-4a36-b810-968b8b0930a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Backend">
+      <UniqueIdentifier>{7314a3cd-ad77-478d-ba53-fe774a689ec9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backend">
+      <UniqueIdentifier>{0352e252-ee31-4019-b761-24f5718f27e6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BaseCharacter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Stats.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Globals.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsEngine.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Stats.cpp">
+      <Filter>Source Files\Mechanics</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCharacter.cpp">
+      <Filter>Source Files\Graphics\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRenderObject.cpp">
+      <Filter>Source Files\Graphics\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Graphics</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Globals.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BaseCharacter.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="GraphicsEngine.h">
+      <Filter>Header Files\Graphics</Filter>
     </ClInclude>
     <ClInclude Include="Stats.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Mechanics</Filter>
     </ClInclude>
+    <ClInclude Include="BaseCharacter.h">
+      <Filter>Header Files\Graphics\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRenderObject.h">
+      <Filter>Header Files\Graphics\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TestMap.txt">
+      <Filter>Source Files\Resource Files</Filter>
+    </Text>
+    <Text Include="TestTileSetData.txt">
+      <Filter>Source Files\Resource Files</Filter>
+    </Text>
+    <Text Include="FullMap01.txt">
+      <Filter>Source Files\Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

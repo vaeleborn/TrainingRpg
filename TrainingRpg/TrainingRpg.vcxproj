@@ -145,14 +145,27 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BaseCharacter.cpp" />
+    <ClCompile Include="GameRenderObject.cpp" />
     <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="GraphicsEngine.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="Map.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Stats.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseCharacter.h" />
+    <ClInclude Include="GameRenderObject.h" />
     <ClInclude Include="Globals.h" />
+    <ClInclude Include="GraphicsEngine.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="Map.h" />
     <ClInclude Include="Stats.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="FullMap01.txt" />
+    <Text Include="TestMap.txt" />
+    <Text Include="TestTileSetData.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
